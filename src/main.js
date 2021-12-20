@@ -65,7 +65,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-console.log(firebaseConfig); 
+console.log( 'https://' + process.env.VUE_APP_FIREBASE_PROJECT_ID +'.firebaseio.com'); 
 firebase.initializeApp(firebaseConfig);
 if (firebase.measurementId) firebase.analytics();
 
