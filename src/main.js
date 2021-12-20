@@ -65,6 +65,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
+console.log(firebaseConfig); 
 firebase.initializeApp(firebaseConfig);
 if (firebase.measurementId) firebase.analytics();
 
